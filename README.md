@@ -1,6 +1,3 @@
-# Fibonacci-Heap
-This is a group project for the subject Data Structures and Algorithms.
-
 # What is Fibonacci Heap
 In computer science, a Fibonacci heap is a data structure for priority queue operations, consisting of a collection of heap-ordered trees.
 It has a better amortized running time than many other priority queue data structures including the binary heap and binomial heap.
@@ -16,7 +13,7 @@ It has a better amortized running time than many other priority queue data struc
 8. Extract Min. It will delete the value of minimum
 9. Consolidate it is also a wrapper function and it traverse the heap
 10. Decrease Key. it will decrease the key to desired value. And it is made for the delete function to make the key -infinity and can delete it easily.
-11. Delete function will delete the value 
+11. Delete function will delete the value. But it has the worst time complexity and the sources believe that it shouldn't be done in Fibonacci Heap. 
 12. Show Keys function will show you the keys in the fibonacci heap.
 
 # How To Call Functions:
@@ -28,7 +25,7 @@ The arrangment for running Fibonacci heap's code is:
   c.)Return Min
   d.)Extract Min
   e.)Decrease Key
-  f.)Delete
+  f.)Delete(Only function it will not work due to some memory errors)
   g.)Union
   h.)Show Keys
 # Make Heap:-
@@ -55,4 +52,4 @@ The arrangment for running Fibonacci heap's code is:
   for e.g F and then after finding out the union make that F go for extract min and 
   other things.
 # CONCLUSION:
-Everything in this code (Fibonacci Heap) has been done following the instructions from book "Introduction To Algorithms" and Time Complexities has been properly maintained according to Fibonacci's conditions.
+Everything in this code (Fibonacci Heap) has been done following the instructions from book "Introduction To Algorithms" and Time Complexities has been properly maintained according to Fibonacci's conditions. One more thing that there is a delete function which will not work because we came to know from different sources that we should not include delete in Fibonacci Heap.
