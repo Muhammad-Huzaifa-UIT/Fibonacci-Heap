@@ -18,3 +18,39 @@ It has a better amortized running time than many other priority queue data struc
 10. Decrease Key. it will decrease the key to desired value. And it is made for the delete function to make the key -infinity and can delete it easily.
 11. Delete function will delete the value 
 12. Show Keys function will show you the keys in the fibonacci heap.
+
+# How To Call Functions:
+
+There is a function in the code named ASK where you will get to know how to run the cut but cut short i will tell you how the function will work and their arrangements and technicalities.
+The arrangment for running Fibonacci heap's code is:
+  a.)Make Heap
+  b.)Insert
+  c.)Return Min
+  d.)Extract Min
+  e.)Decrease Key
+  f.)Delete
+  g.)Union
+  h.)Show Keys
+# Make Heap:-
+  It will create a heap.
+# Insert:-
+  It will insert a value to the left or right of the tree.
+# Return Min:-
+  It will return you the minimun element of the list
+# Extract Min:-
+  It will delete the value of the minimum and will shift the pointer to the next      
+  minimum
+ # Decrease Key:-
+  It will decrease the key to the desired value. It is also an helpful function for   
+  delete because it makes the key negative infinity and is easy to delete.
+ # Show Keys:
+  This function will show the keys present in the fibonacci heap.
+ # Union(IMPORTANT):
+  This will give you Union of two heaps.
+  Now in union Function if you will directly run Union form our interface it will give 
+  you union of our heaps.This will be a proof that our union is working. But after that 
+  extract min and other functiosns will not be of our union function. They will be of 
+  the first heap created in the start. But if you want to run extract min and other  
+  functions on our unioned heap create two heaps for example H1 and H2 and third object 
+  for e.g F and then after finding out the union make that F go for extract min and 
+  other things.
