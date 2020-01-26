@@ -54,3 +54,5 @@ The arrangment for running Fibonacci heap's code is:
   functions on our unioned heap create two heaps for example H1 and H2 and third object 
   for e.g F and then after finding out the union make that F go for extract min and 
   other things.
+# CONCLUSION:
+Everything in this code (Fibonacci Heap) has been done following the instructions from book "Introduction To Algorithms" and Time Complexities has been properly maintained according to Fibonacci's conditions.
